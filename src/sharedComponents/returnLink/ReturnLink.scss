@@ -1,0 +1,16 @@
+.return-link{
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  width: max-content;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  img{
+    width: 40px;
+  }
+  span{
+    font-weight: bold;
+    font-size: 20px;
+  }
+}

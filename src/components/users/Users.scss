@@ -1,0 +1,25 @@
+.users{
+  &__wrapper{
+    max-width: 1360px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    @media screen and (max-width: 1380px){
+      padding: 0 20px;
+    }
+  }
+  &__title{
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  &__cards{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    @media screen and (max-width: 1023.5px){
+      justify-content: center;
+    }
+  }
+}
